@@ -7,6 +7,8 @@ python -m venv venv
 
 STEP:02
 .\venv\Scripts\Activate
+or
+.\venv\bin\activate
 
 STEP:03
 pip install -r requirements.txt
