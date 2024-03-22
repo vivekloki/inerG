@@ -14,18 +14,18 @@ STEP:03
 pip install -r requirements.txt
 
 STEP:04
+flask db init
+
+STEP:05
+flask db migrate
+
+STEP:06
+flask db upgrade
+
+STEP:07
 python runserver.py
 or
 flask run
-
-STEP:05
-flask db init
-
-STEP:06
-flask db migrate
-
-STEP:07
-flask db upgrade
 
 STEP:08
 (HIT THIS API TO LOAD CALCULATED DATA TO DB)
