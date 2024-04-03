@@ -1,1 +1,1 @@
-from app.services import organization_service
+from app.services import *
